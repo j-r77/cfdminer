@@ -11,3 +11,5 @@ The algorithm takes 3 mandatory arguments as input:
 Note that the algorithm only discovers rules without violations
 
 
+## Output format
+The rules are output in the notation described in the paper: First, the attributes are listed as [A,B] => C, followed by the values those attributes take in the rule, (a,b || c). This notation corresponds to a rule (A=a, B=b) => C=c. All rules contain a single consequent.
